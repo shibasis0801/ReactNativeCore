@@ -7,17 +7,17 @@
 #
 
 Pod::Spec.new do |s|
-  s.name = 'react-ios'
-  s.version = '0.67.4.5'
+  s.name = 'ReactNative'
+  s.version = '0.67.4'
   s.summary = 'An runtime base on react-native.'
   s.description =
   <<-DESC
   'Introduce this library for your App, development by react-native code.'
   DESC
-  s.homepage = 'https://github.com/beatjs/react-ios'
+  s.homepage = 'https://github.com/shibasis0801/ReactNativeCore'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Liam Xu' => 'liamxujia@outlook.com' }
-  s.source = { :git => 'https://github.com/beatjs/react-ios.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/shibasis0801/ReactNativeCore' }
   s.platforms = { :ios => '11.0'}
   s.module_name = 'ReactNative'
   s.library = 'stdc++'
